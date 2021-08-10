@@ -9,6 +9,9 @@ npm install
 ```
 npm run serve
 ```
+###
+Please create a new event to see the data in calender
+
 
 ### Compiles and minifies for production
 ```
