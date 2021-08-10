@@ -144,12 +144,10 @@
 
 <script>
     import chart  from "./charts";
-    import Datepicker  from "vuejs-datepicker";
 
 export default {
     components: {
     chart,
-    Datepicker
   },
   data: () => ({
     priorityList: ['High','Medium','Low'],
