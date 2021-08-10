@@ -49,7 +49,6 @@
             <v-form @submit.prevent="addEvent">
               <v-text-field v-model="name" type="text" label="Event Name (required)"></v-text-field>
               <v-text-field v-model="details" type="text" label="Description"></v-text-field>
-              <datepicker v-model="start" name="uniquename"></datepicker>
               <v-text-field v-model="start" type="date" label="Start Date (required)"></v-text-field>
               <v-text-field v-model="end" type="date" label="End Date (required)"></v-text-field>
               <v-select

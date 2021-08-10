@@ -9,12 +9,14 @@
 <script>
 
 import MeetupCalender from './components/meetupCalender';
+import Datepicker from 'vuejs-datepicker';
 
 export default {
   name: 'App',
 
   components: {
     MeetupCalender,
+    Datepicker
   },
 
   data: () => ({
